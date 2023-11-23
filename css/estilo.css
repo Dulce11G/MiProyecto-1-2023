@@ -2,13 +2,13 @@
     padding: 0;
     margin: 0;
 }
-#cabeceraContenido{
+#CabeceraContenido{
     width: 100%;
     background-color: #67999a;
     display: flex;
 
 }
-#cuerpoContenido{
+#CuerpoContenido{
     width: 100%;
     background-color: #D3EE9F;
     display: flex;
@@ -19,15 +19,15 @@ footer{
     height: 200px;
     border: 1px solid black;
 }
-#cabeceraImagenNombre{
+#CabeceraImagenNombre{
     flex:30%
 }
-#cabeceraMenu{
+#CabeceraMenu{
     flex: 70%;
     margin: 15px 20px 0 0;
     text-align: right;
 }
-#imagenNombreRedondo{
+#ImagenNombreRedondo{
     width: 150px;
     height: 150px;
     background-color: white;
@@ -39,7 +39,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover
 }
-#imagenNombreRectangulo{
+#ImagenNombreRectangulo{
     background-color: #013334;
     width: 10%;
     padding: 20px;
@@ -66,15 +66,35 @@ ul li a:hover{
     color: white;
     text-decoration: underline dashed;
 }
-#logoInicio{
+#LogoInicio{
     background-image: url("../img/Recurso\ 7.png");
     padding: 2px 0 0 18px;
     background-size: 18px;
     background-repeat: no-repeat;
 }
-#cuerpoImagen{
+#CuerpoImagen{
     flex: 40%;
 }
-#cuerpoDetalle{
+#CuerpoDetalle{
     flex: 60px;
+}
+#BordeImagen{
+    background-color: #D46B68;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 25%;
+    margin: auto;
+}
+img{
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#DatosDetalle{
+    text-align: justify;
+    padding: 40px;
 }
