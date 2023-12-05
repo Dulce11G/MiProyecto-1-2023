@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <title>Document</title>
 </head>
 <body>
@@ -29,28 +30,29 @@
     </div>
 <!--aqí colocamos el cuerpo del index-->
     <div id="CuerpoContenido">
-        <div id="BordeImagen"><img src="/img/Recurso 1.png" height="400" width="480"></div>
-        <div id="CuerpoDetalle">
-            <h1>bienvenido</h1>
-            <div id="DatosDetalle">
-                <p>¡Bienvenido a nombre de la compañía! Estamos muy felices de contar
-                     con un nuevo miembro tan talentoso dentro de nuestro equipo, Esperamos poder crecer juntos. 
-                     ¡Felicitaciones por formar parte del equipo! Esperamos que tu paso por la empresa sea muy gratificante
-                     tanto para ti como para nosotros. Estamos listos para asumir nuevos desafíos juntos y trabajar hacia un objetivo común.</p>
-            </div>
-            <div id="Botones">
-                <div id="BotonFavorito">
-                <div id="MarcoFavorito" class="DisenoBoton">
-                    Persona Favorita
-                </div>
-                </div>
-                <div id="BotonUbicacion">
-                    <div id="MarcoUbicacion" class="DisenoBoton">
-                        Mi Ubicación
-                </div>
-            </div>
+        <div id="FormularioDatos">
+            <fieldset>
+                <legend>Mis Datos</legend>
+                <form>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Ingrese su Nombre">
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Ingrese su Apellido">
+                    <label>Edad</label>
+                    <input type="number" placeholder="Ingrese su Edad">
+                    <select>
+                        <option value="CBBA">Cochabamba</option>
+                        <option value="LP">La Paz</option>
+                        <option value="SCZ">Santa Cruz</option>
+                        <option value="TJA">Tarija</option>
+                        <option value="PSI">Potosí</option>
+                        <label>Descripción</label>
+                        <textarea></textarea>
+                        <input type="button" value="insertar">
+                    </select>
+                </form>
+            </fieldset>
         </div>
-    </div>
 
     </div>
     <!--aquí colocaremos el pie de la web-->
